@@ -5,12 +5,10 @@ Recebe telemetria simulada, detecta anomalias via lógica Python e usa IA genera
 (Ollama Cloud · `gpt-oss:120b`) para traduzir cada anomalia em **impacto terrestre** para
 frotas logísticas, agricultura de precisão e veículos autônomos.
 
-## 👥 Integrantes
-- [Nome Completo] — RM: XXXXXX — Turma: XCCXX
-- [Nome Completo] — RM: XXXXXX — Turma: XCCXX
-- [Nome Completo] — RM: XXXXXX — Turma: XCCXX *(se trio)*
-
-**Modalidade:** [Individual | Dupla | Trio]
+## 👥 Integrantes - 1CPPR
+- Alice Lima — RM: 567371 
+- Carlos Raul  — RM: 567798 
+- Jessica Xavier — RM: 568173 
 
 ## 🛰 O que o projeto faz
 A Mission Control AI monitora cinco parâmetros de um satélite GNSS (drift do oscilador
