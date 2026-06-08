@@ -1,0 +1,17 @@
+# Credenciais — NUNCA versionar
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# SO
+.DS_Store

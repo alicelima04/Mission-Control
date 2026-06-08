@@ -1,0 +1,12 @@
+Coloque aqui os 2 prints REAIS do sistema rodando (obrigatorio - Frente 2):
+
+  screenshot_normal.png  -> banner + /status com missao em estado NORMAL
+  screenshot_alerta.png  -> apos "/cenario drift", uma pergunta a IA mostrando
+                            o alerta CRITICO + a analise gerada pelo modelo
+
+Como capturar:
+  1. python main.py
+  2. tire o print do banner inicial e de uma resposta /status (estado normal)
+  3. digite: /cenario drift
+  4. digite uma pergunta, ex: "O que esta acontecendo com o relogio?"
+  5. tire o print da resposta da IA com o alerta critico

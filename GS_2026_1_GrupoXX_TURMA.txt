@@ -1,0 +1,19 @@
+==================================================================
+GLOBAL SOLUTION 2026.1 - MISSION CONTROL AI
+Disciplina: Prompt Engineering and Artificial Intelligence
+FIAP - Ciencia da Computacao - 1o Semestre de 2026
+==================================================================
+
+Nome completo e RM de todos os integrantes:
+- [Nome Completo] — RM: [numero]
+- [Nome Completo] — RM: [numero]
+- [Nome Completo] — RM: [numero]   (se trio)
+
+Modalidade: [Individual | Dupla | Trio]
+
+Trilha escolhida: MobilitySat (GNSS e Mobilidade)
+
+Link do repositorio GitHub: https://github.com/usuario/mission-control-ai
+
+Link do video de demonstracao: https://www.youtube.com/watch?v=SEU_ID_AQUI
+==================================================================

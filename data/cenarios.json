@@ -1,0 +1,12 @@
+{
+  "tempestade_solar": {
+    "integridade_sinal_pct": 90.0,
+    "sync_constelacao_pct": 91.0,
+    "drift_oscilador_ns": 22.0
+  },
+  "fim_de_vida": {
+    "margem_potencia_pct": 16.0,
+    "drift_oscilador_ns": 28.0,
+    "erro_efemeride_m": 5.5
+  }
+}

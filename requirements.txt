@@ -1,0 +1,14 @@
+# Dependências mínimas — versões fixadas para reprodutibilidade
+
+# IA generativa
+ollama==0.6.2
+python-dotenv==1.2.2
+
+# Interface CLI estilo Claude Code
+rich==15.0.0
+prompt-toolkit==3.0.52
+pyfiglet==1.0.4
+
+# Opcionais (descomente se for usar):
+# pandas==2.2.3       # manipulação de séries temporais da telemetria
+# matplotlib==3.9.2   # gráficos
