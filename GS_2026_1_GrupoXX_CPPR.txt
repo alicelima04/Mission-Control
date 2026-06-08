@@ -5,15 +5,15 @@ FIAP - Ciencia da Computacao - 1o Semestre de 2026
 ==================================================================
 
 Nome completo e RM de todos os integrantes:
-- [Nome Completo] — RM: [numero]
-- [Nome Completo] — RM: [numero]
-- [Nome Completo] — RM: [numero]   (se trio)
+- Alice Lima — RM: 567371
+- Carlos Raul — RM: 567798
+- Jessica Xavier — RM: 568173
 
-Modalidade: [Individual | Dupla | Trio]
+Modalidade: Trio
 
 Trilha escolhida: MobilitySat (GNSS e Mobilidade)
 
-Link do repositorio GitHub: https://github.com/usuario/mission-control-ai
+Link do repositorio GitHub: https://github.com/alicelima04/Mission-Control
 
 Link do video de demonstracao: https://www.youtube.com/watch?v=SEU_ID_AQUI
 ==================================================================
