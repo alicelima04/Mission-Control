@@ -1,7 +1,6 @@
 """Mission Control AI — ponto de entrada do sistema.
 
 Trilha: MobilitySat (GNSS e Mobilidade)
-Equipe: [PREENCHER]
 """
 
 from src.ui import run_cli
