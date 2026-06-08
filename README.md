@@ -61,8 +61,8 @@ tom de controlador de missão.
 | `<pergunta>` | Qualquer texto vira uma análise da IA |
 
 ## 📸 Demonstração
-![Status normal da missão](assets/screenshot_normal.png)
-![Alerta crítico com análise da IA](assets/screenshot_alerta.png)
+![Status normal da missão](assets/screenshot_normal.svg)
+![Alerta crítico com análise da IA](assets/screenshot_alerta.svg)
 
 ## 🤖 System Prompt
 O system prompt completo está em [`prompts/system_prompt.md`](prompts/system_prompt.md).
