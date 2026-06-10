@@ -69,7 +69,7 @@ O system prompt completo está em [`prompts/system_prompt.md`](prompts/system_pr
 Ele define papel (analista de bordo GNSS), escopo, restrições (não reclassificar severidade,
 não inventar dados), tom e formato de saída fixo, além de dois exemplos few-shot.
 
-## 🧪 Cenários de teste demonstrados
+## Cenários de teste demonstrados
 1. **Operação normal** — todos os parâmetros dentro do range; IA recomenda manter monitoramento.
 2. **Drift crítico do oscilador** (`/cenario drift`) — alerta CRÍTICO + comutação automática para
    oscilador redundante + análise da IA sobre o erro de posicionamento resultante.
@@ -77,7 +77,7 @@ não inventar dados), tom e formato de saída fixo, além de dois exemplos few-s
 4. **Baixa energia** (`/cenario energia`) — modo economia ativado automaticamente.
 5. **Apagão total** (`/cenario apagao`) — todos os parâmetros críticos simultaneamente.
 
-## ⚙️ Diferenciais implementados
+## Diferenciais implementados
 - **Memória de contexto:** o motor guarda os últimos 5 ciclos e injeta um resumo no prompt,
   dando à IA consciência temporal da evolução da missão.
 - **Few-shot prompting:** o system prompt traz exemplos de análise (nominal e crítica) que
@@ -85,7 +85,7 @@ não inventar dados), tom e formato de saída fixo, além de dois exemplos few-s
 - **Saída/decisão estruturada:** toda a classificação de severidade e as respostas automatizadas
   são lógica Python pura — a IA explica, não decide.
 
-## 💼 Proposta de valor / modelo de negócio
+## Proposta de valor / modelo de negócio
 **1. Qual o problema real terrestre que esta missão resolve?**
 Posicionamento de alta precisão é insumo crítico para logística, agricultura de precisão e
 veículos autônomos. Quando o sinal GNSS degrada sem aviso, frotas erram rotas, plantadeiras
@@ -109,12 +109,12 @@ ordem de grandeza, não medição exata.)
 e precisão garantidos (SLA), com a Mission Control AI atuando como camada de monitoramento e
 alerta que sustenta esse SLA.
 
-## ⚠️ Limitações conhecidas
+## Limitações conhecidas
 - A telemetria é simulada estocasticamente — não reflete física orbital real.
 - A IA é não-determinística; mesmo com `temperature=0.3`, respostas variam levemente entre execuções.
 - Não há persistência em disco do histórico entre sessões (memória vive apenas no processo).
 - Depende de conexão com a Ollama Cloud; sem chave válida, o motor retorna mensagem de erro amigável.
 
-## 🎬 Vídeo de demonstração
+## Vídeo de demonstração
 🔗 [Assistir demonstração no YouTube](https://www.youtube.com/watch?v=8_BZFhLPkbs)
 > Configurado como "Não listado" no YouTube.
