@@ -116,5 +116,5 @@ alerta que sustenta esse SLA.
 - Depende de conexão com a Ollama Cloud; sem chave válida, o motor retorna mensagem de erro amigável.
 
 ## 🎬 Vídeo de demonstração
-🔗 [Assistir demonstração no YouTube](https://www.youtube.com/watch?v=SEU_ID_AQUI)
+🔗 [Assistir demonstração no YouTube](https://www.youtube.com/watch?v=8_BZFhLPkbs)
 > Configurado como "Não listado" no YouTube.

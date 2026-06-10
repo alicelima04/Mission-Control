@@ -15,5 +15,5 @@ Trilha escolhida: MobilitySat (GNSS e Mobilidade)
 
 Link do repositorio GitHub: https://github.com/alicelima04/Mission-Control
 
-Link do video de demonstracao: https://www.youtube.com/watch?v=SEU_ID_AQUI
+Link do video de demonstracao: https://www.youtube.com/watch?v=8_BZFhLPkbs
 ==================================================================
