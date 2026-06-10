@@ -10,7 +10,7 @@ frotas logísticas, agricultura de precisão e veículos autônomos.
 - Carlos Raul  — RM: 567798 
 - Jessica Xavier — RM: 568173 
 
-## 🛰 O que o projeto faz
+## O que o projeto faz
 A Mission Control AI monitora cinco parâmetros de um satélite GNSS (drift do oscilador
 atômico, sincronização com a constelação, integridade do sinal L1/L5, erro de efeméride e
 margem de potência). Uma camada de **regras de decisão em Python** classifica cada leitura
