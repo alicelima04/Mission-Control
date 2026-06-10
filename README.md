@@ -1,11 +1,11 @@
-# 🚀 Mission Control AI — MobilitySat (GNSS)
+# Mission Control AI — MobilitySat (GNSS)
 
 Sistema de monitoramento operacional de um **satélite GNSS de navegação** (estilo GPS/Galileo).
 Recebe telemetria simulada, detecta anomalias via lógica Python e usa IA generativa
 (Ollama Cloud · `gpt-oss:120b`) para traduzir cada anomalia em **impacto terrestre** para
 frotas logísticas, agricultura de precisão e veículos autônomos.
 
-## 👥 Integrantes - CPPR
+## Integrantes - CPPR
 - Alice Lima — RM: 567371 
 - Carlos Raul  — RM: 567798 
 - Jessica Xavier — RM: 568173 
@@ -19,18 +19,18 @@ para oscilador redundante, RAIM). O **LLM via Ollama Cloud** recebe esses dados 
 dinamicamente no prompt e gera uma análise em linguagem natural, sempre amarrando a condição
 técnica ao impacto no usuário terrestre.
 
-## 🎭 Persona atendida
+## Persona atendida
 **Operador de centro de controle / engenheiro de segmento espacial.** É quem fica de plantão
 no NOC observando a saúde do satélite e precisa de diagnóstico técnico rápido e acionável —
 por isso a IA responde em formato fixo (Diagnóstico → Análise → Impacto → Recomendação), com
 tom de controlador de missão.
 
-## 🧰 Tecnologias utilizadas
+## Tecnologias utilizadas
 - Python 3.10+
 - Ollama Cloud API (modelo `gpt-oss:120b`)
 - Bibliotecas: `ollama`, `python-dotenv`, `rich`, `prompt-toolkit`, `pyfiglet`
 
-## ▶️ Como executar
+## Como executar
 1. Clone o repositório.
 2. Crie o ambiente virtual:
    ```bash
