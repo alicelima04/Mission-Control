@@ -60,11 +60,11 @@ tom de controlador de missão.
 | `/exit` | Encerra |
 | `<pergunta>` | Qualquer texto vira uma análise da IA |
 
-## 📸 Demonstração
+## Demonstração
 ![Status normal da missão](assets/screenshot_normal.svg)
 ![Alerta crítico com análise da IA](assets/screenshot_alerta.svg)
 
-## 🤖 System Prompt
+## System Prompt
 O system prompt completo está em [`prompts/system_prompt.md`](prompts/system_prompt.md).
 Ele define papel (analista de bordo GNSS), escopo, restrições (não reclassificar severidade,
 não inventar dados), tom e formato de saída fixo, além de dois exemplos few-shot.
@@ -114,7 +114,3 @@ alerta que sustenta esse SLA.
 - A IA é não-determinística; mesmo com `temperature=0.3`, respostas variam levemente entre execuções.
 - Não há persistência em disco do histórico entre sessões (memória vive apenas no processo).
 - Depende de conexão com a Ollama Cloud; sem chave válida, o motor retorna mensagem de erro amigável.
-
-## Vídeo de demonstração
-🔗 [Assistir demonstração no YouTube](https://www.youtube.com/watch?v=8_BZFhLPkbs)
-> Configurado como "Não listado" no YouTube.
